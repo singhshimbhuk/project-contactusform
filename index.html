@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+   .contact{
+    position: absolute;
+    width: 80rem;
+    height: 39rem;
+    left: 1rem;
+    top: 1rem;
+    
+    background: url('https://i.postimg.cc/c1p1vDF2/Banner-Image.jpg');
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+}
+.contact h2{
+    position: absolute;
+    width: 28.2rem;
+    height: 7.596rem;
+    font-family: ivymode, sans-serif;
+font-style: normal;
+font-weight: 200;
+
+    margin-left: 4rem;
+    margin-top: 6rem;
+    font-family: 'Ivy Mode';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.9rem;
+    line-height: 71px;
+    
+   
+    
+    background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+}
+ .inputbox input
+{
+    width: 18rem;
+    color: black;
+    font-size: 1.9rem;
+  
+    margin-bottom: 3.1rem;
+    border: none;
+    border-bottom: 0.13rem solid #121212;
+    outline: none;
+    background:transparent ;
+}
+.form{
+    margin-top: 16rem;
+    width: 15rem;
+}
+.inputbox input[placeholder=Name]
+{
+    padding-left: 4rem;
+    font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+.inputbox input[placeholder=Email]
+{
+    width: 20rem;
+    padding-left: 4rem;font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+.inputbox input[placeholder=Message]
+{
+    width: 22rem;
+    padding-left: 4rem;font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+
+
+.contact:hover{
+    border-color: aqua;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button
+{
+    text-align: center;
+    background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
+    font-family: 'Poppins', sans-serif;  
+font-weight: bold;
+color: #FFFFFF;
+padding: 1rem 2.2rem;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    margin-left: 5.5rem;
+    border: none;
+}
+.button:hover{
+    background: #E7B542;
+}
+
+
+@media(max-width:480px)
+{.form{
+    margin-top: 14rem;
+    width: 15rem;  margin-left: 0.6rem;
+}
+    .contact{
+        width: 22rem;
+        height: 45rem;
+        background: black;
+        border-radius: 0px;
+    }
+    .contact h2
+    {    font-size: 2.8rem;
+        height: 4rem;
+    margin-left: 0.5rem;
+    }
+    .inputbox input {
+        width: 10rem;
+        color: white;
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+}
+.inputbox input[placeholder=Message] {
+    width: 18rem;
+    padding-left: 0rem;font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+.inputbox input[placeholder=Email] {
+    width: 16rem; padding-left: 0rem;font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+.inputbox input[placeholder=Name] {
+    width: 14rem; padding-left: 0rem;font-family: 'Poppins', sans-serif;    font-weight: 600;
+}
+.inputbox input
+{
+    
+    border-bottom: 0.31rem solid #AAAAAA;
+
+}
+.contact{
+
+}
+.button
+{
+    text-align: center;
+    background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
+font-style: normal;
+color: #FFFFFF;
+padding: .8rem 1.6rem;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    margin-left: 0rem;
+    border: none;
+}
+.button:hover{
+    background: #E7B542;
+}
+
+}
+    </style>
+</head>
+<body>
+    <form action="#">
+        <section class="contact">
+    
+            <h2>Contact us</h2>
+            <div class="form">
+                <div class="inputbox">
+                    <label for="user"></label>
+                    <input type="text" name="Name" placeholder="Name"  required/>
+                   
+                
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="Email"  required/>
+                   
+              
+                    <label for="user"></label>
+                    <input type="text" name="Message" placeholder="Message"  required/>
+                    
+                
+                 <button type="submit" class="button" style="font-family: 'poppins';">Submit</button>
+                </div>
+               
+            </div>
+      
+    
+      </section>
+    </form>
+ 
+        
+   
+</body>
+</html>
